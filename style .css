@@ -3,7 +3,7 @@
 }
 .navbar{
     height: 100px;
-    width: 100%;
+    width: 100vw;
     background-color:#11161d;
     display: flex;
     align-items: center;
@@ -71,7 +71,7 @@
     display: flex;
     text-align: center;
     justify-content: center;
-    padding: 40px;
+    padding: 20px;
 }
 .image img{
     width: 100%;
@@ -384,23 +384,22 @@ form button{
 }
 @media screen and (max-width:1030px){
     .navbar{
-        display: flex;
         align-items: center;
         justify-content: center;
-        padding: 0px;
+        flex-direction: column;
     }
     .navbar-logo{
-        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
+        padding: 20px 20px;
     }
     .navbar-logo h3{
         text-align: center;
         padding-left: 0px;
     }
     .navbar-1{
-        display: none;
+      display: none;
     }
     .welcome-banner{
        max-height: 1400px;
